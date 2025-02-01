@@ -1,0 +1,2 @@
+# TypeError in Python List Calculation
+This repository demonstrates a common error in Python when performing calculations on lists.  The `calculate_average` function in `bug.py` works correctly for numerical lists but throws a `TypeError` if the list contains non-numerical elements (e.g., strings). The `bugSolution.py` file shows how to handle this scenario using error handling (try-except blocks) to gracefully manage such situations and prevent program crashes.
